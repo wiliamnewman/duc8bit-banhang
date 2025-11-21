@@ -1,0 +1,302 @@
+tạo cho tôi web html javascript hoặc jquery hoặc bất cứ script nào tốt nhất và css, web chạy local về quản lý bán hàng và danh sách mặt hàng web chia làm 3 file html,css và script, hãy tìm hiểu và tạo đầy đủ và toàn diện hệ thống đầy đủ tính năng chính như :
+1. tính năng xuất ra file txt và nhập file txt
+2. chèn ảnh mặt hàng, ảnh lưu trong file dưới dạng ảnh gốc chứ không phải URL
+3. thêm tìm kiếm sản phẩm và sắp xếp sản phẩm theo cột trong tab sản phẩm. thêm chức năng thêm cột để có thể thêm bất cứ cột nào cần thiết ví dụ như mô tả hoặc bình luận người dùng có thể nhấn nút "thêm cột" để thêm tên cột và chọn loại của cột đa dạng loại hơn như : richtextbox, date time, .... khoảng 20 loại khác nhau.
+trong phần quản lý cột hãy cho phép xoá cả những cột hệ thống, ảnh có thể nhấn vào để xem to và có thể zoom ảnh.
+hãy thêm tính năng tôi có thể di chuyển cột sang vị trí bất kỳ, trong cột thao tác thêm checkbox select all và delete selected và ở mỗi sản phẩm có thêm checkbox để select từng sản phẩm.
+web phải hoạt động tốt trên tất cả nền tảng. cột checkbox có thể di chuyển tự do giống các cột khác.
+
+trên điện thoại tôi không thể sắp xếp cột được, có thể là do thao tác touch trên điện thoại, hãy sửa nó. Hãy nâng cấp tính năng  
+và tìm hiểu kỹ chức năng của các hệ thống khác và nâng cấp hệ thống thêm 200 tính năng nữa.
+
+tạo cho tôi web html javascript hoặc jquery hoặc bất cứ script nào tốt nhất và css, web chạy local về quản lý bán hàng và danh sách mặt hàng web chia làm 3 file html,css và script, hãy tìm hiểu và tạo đầy đủ và toàn diện hệ thống đầy đủ tính năng chính như :
+## **QUẢN LÝ SẢN PHẨM (30 tính năng)**
+1. Thêm sản phẩm mới
+2. Sửa sản phẩm
+3. Xóa sản phẩm đã checked hoặc đơn lẻ
+4. Nhân bản sản phẩm
+5. Xem chi tiết sản phẩm
+6. Tìm kiếm sản phẩm theo từ khóa
+7. Tìm kiếm theo cột cụ thể
+8. Lọc theo trạng thái (còn hàng, sắp hết, hết hàng)
+9. Lọc nâng cao
+10. Sắp xếp theo cột 
+11. Chọn nhiều sản phẩm bằng checkbox
+12. Chọn tất cả sản phẩm
+13. Xóa tất cả sản phẩm
+14. Nhân bản hàng loạt
+15. Sửa hàng loạt
+16. Xuất sản phẩm đã chọn
+17. Phân trang dữ liệu
+18. Tùy chỉnh số dòng mỗi trang (10/25/50/100/Tất cả)
+19. Hiển thị số sản phẩm được chọn
+20. Context menu chuột phải (Sửa/Nhân bản/Xóa/Xuất)
+25. Hiển thị trạng thái tồn kho
+26. Đếm sản phẩm mới trong 7 ngày
+27. Cảnh báo sản phẩm sắp hết hàng
+28. Danh sách sản phẩm hết hàng
+29. Responsive trên mọi thiết bị
+30. Lưu thông tin thời gian tạo/sửa sản phẩm
+
+## **QUẢN LÝ CỘT 
+31. Thêm cột mới
+32. Xóa cột (bao gồm cột hệ thống)
+33. Di chuyển cột bằng kéo thả (Desktop)
+34. Di chuyển cột bằng long press (Mobile/Touch)
+34. các cột và dữ liệu cột phải chính xác, khi nhấn thêm sản phẩm các cột được cập nhật theo các cột hiện có
+35. các loại cột khác nhau:
+    - Văn bản (text)
+    - Số (number)
+    - Hình ảnh (image)
+    - Rich Text Editor
+    - Ngày (date)
+    - Ngày & Giờ (datetime)
+    - Giờ (time)
+    - Email
+    - Điện thoại (phone)
+    - URL
+    - Màu sắc (color)
+    - Checkbox
+    - Select Box
+    - Multi Select
+    - Đánh giá sao (rating)
+    - Tiền tệ (currency)
+    - Phần trăm (percentage)
+    - Barcode
+    - QR Code
+    - Tags
+36. Đặt giá trị mặc định cho cột
+37. Đánh dấu cột bắt buộc
+38. Đánh dấu cột hệ thống
+39. Hiển thị icon theo loại cột
+41. Tự động cập nhật form khi thêm/xóa cột
+42. Hiển thị danh sách cột với thông tin chi tiết
+43. Drag handle cho việc di chuyển cột
+45. Sắp xếp cột checkbox tự do
+46. Cột có thể sort được
+47. Hiển thị indicator khi sort
+48. Cột có độ rộng tùy chỉnh
+49. Sticky header khi scroll
+51. Responsive columns trên mobile
+52. Tooltip cho tên cột dài
+53. Badge hiển thị loại cột
+54. Validation theo loại cột
+55. Auto-format dữ liệu theo loại cột
+
+## **HÌNH ẢNH (15 tính năng)**
+56. Upload nhiều ảnh cùng lúc
+57. Xem trước ảnh trước khi lưu
+58. Lưu ảnh dưới dạng base64
+59. Click vào ảnh để xem modal
+60. Zoom in ảnh (nhiều cấp độ)
+61. Zoom out ảnh
+62. Reset zoom về 100%
+63. Zoom bằng nút bấm
+64. Zoom bằng scroll chuột
+65. Zoom bằng pinch (2 ngón tay trên mobile)
+66. Xoay ảnh 90 độ
+67. Hiển thị phần trăm zoom
+68. Đóng modal bằng nút X
+69. Đóng modal bằng click bên ngoài
+70. Đóng modal bằng phím ESC
+71. Hiển thị nhiều ảnh cho 1 sản phẩm
+72. Thumbnail ảnh trong bảng
+73. Hiển thị số ảnh còn lại (+N)
+74. Transform ảnh mượt mà
+75. Background đen cho modal ảnh
+
+## **XUẤT/NHẬP DỮ LIỆU (20 tính năng)**
+76. Xuất file TXT
+77. Xuất file JSON
+78. Xuất file CSV
+79. Xuất file HTML
+80. Xuất file XML
+81. Nhập file TXT
+82. Nhập file JSON
+83. Nhập file CSV
+84. Progress bar khi nhập
+85. Validation file khi nhập
+86. Xuất bao gồm cả ảnh base64
+87. Xuất thông tin cột và loại cột tất cả thông tin của cột phải chính xác khi nhập.
+88. Xuất metadata (version, date)
+90. Khôi phục từ backup
+91. Backup bao gồm settings
+92. Backup bao gồm lịch sử
+93. Download file tự động
+94. Tên file có timestamp
+95. In danh sách sản phẩm
+
+## **DASHBOARD & BÁO CÁO (25 tính năng)**
+96. Dashboard tổng quan
+97. Thống kê tổng số sản phẩm
+98. Thống kê tổng giá trị
+99. Thống kê số lượng tồn kho
+100. Thống kê số danh mục
+101. Card hiển thị dữ liệu đẹp mắt
+102. Gradient màu cho cards
+103. Icon đại diện cho từng thống kê
+104. Cảnh báo sản phẩm sắp hết hàng
+105. Cảnh báo sản phẩm hết hàng
+106. Báo cáo tồn kho chi tiết
+107. Phân tích sản phẩm
+108. Top 10 sản phẩm giá trị cao
+109. Tính giá trung bình
+110. Tính tổng vốn đầu tư
+111. Tỷ lệ hàng tồn kho
+112. Thống kê sản phẩm mới
+113. Biểu đồ thống kê nhanh
+114. Nút xem chi tiết sản phẩm cảnh báo
+115. Tự động cập nhật dashboard
+116. Real-time statistics
+117. Animated counters
+118. Responsive dashboard grid
+119. Alert với icon và màu sắc
+120. Quick stats panel
+
+## **LỊCH SỬ & TRACKING (15 tính năng)**
+121. Lưu lịch sử mọi thao tác
+122. Timestamp cho mỗi thao tác
+123. Ghi nhận người thực hiện
+124. Tìm kiếm trong lịch sử
+125. Lọc lịch sử theo loại (Thêm/Sửa/Xóa/Nhập/Xuất)
+126. Hiển thị icon cho từng loại thao tác
+127. Xóa từng item lịch sử
+128. Xóa toàn bộ lịch sử
+129. Lưu dữ liệu cũ và mới
+130. Giới hạn 1000 lịch sử gần nhất
+131. Format thời gian theo locale
+132. Scroll lịch sử
+133. Hiển thị thông tin chi tiết thao tác
+134. Border màu cho từng item
+135. Có thể tắt tính năng lưu lịch sử
+
+## **CÀI ĐẶT HỆ THỐNG (30 tính năng)**
+136. Thay đổi theme (Sáng/Tối/Tự động)
+137. Tùy chỉnh màu chủ đạo
+138. Color picker cho màu primary
+139. Bật/tắt thông báo sắp hết hàng
+140. Tùy chỉnh ngưỡng cảnh báo tồn kho
+141. Bật/tắt tự động lưu
+142. Bật/tắt lưu lịch sử
+143. Hiển thị/ẩn grid lines
+144. Bật/tắt highlight rows
+145. Chọn ngôn ngữ (Việt/Anh/Nhật)
+146. Chọn định dạng xuất mặc định
+147. Toggle switches đẹp mắt
+148. Settings grid responsive
+149. Setting cards với icon
+150. Lưu settings vào localStorage
+151. Khôi phục settings từ backup
+152. Validation cho settings
+153. Real-time áp dụng settings
+154. Settings theo categories
+155. Visual feedback khi thay đổi
+156. Input number với validation
+157. Select box cho options
+158. Checkbox styled đẹp
+159. Settings persist sau khi reload
+160. Export settings riêng
+161. Import settings riêng
+162. Reset settings về mặc định
+163. Settings description
+164. Settings preview
+165. Undo changes
+
+## **UI/UX & INTERACTION (40 tính năng)**
+166. Animation fade in khi chuyển tab
+167. Smooth transitions
+168. Hover effects
+169. Loading spinner
+170. Progress bars
+171. Notifications toast
+172. Alert boxes nhiều màu
+173. Badge hệ thống
+174. Tags display
+175. Gradient backgrounds
+176. Box shadows
+177. Border radius mượt mà
+178. Icon từ Font Awesome
+179. Responsive grid layouts
+180. Flexbox layouts
+181. Sticky header
+182. Scroll smooth
+183. Touch-friendly buttons
+184. Large tap targets (Mobile)
+185. Ripple effect (implicit)
+186. Focus states
+187. Active states
+188. Disabled states
+189. Error states
+190. Success states
+191. Warning states
+192. Info states
+193. Modal overlay
+194. Backdrop blur
+195. Card layouts
+196. Stat cards
+197. Dashboard cards
+198. Column cards
+199. History items styled
+200. Table hover effects
+201. Button hover lift
+202. Color-coded alerts
+203. Icon indicators
+204. Visual hierarchy
+205. Consistent spacing
+
+## **KEYBOARD & SHORTCUTS (5 tính năng)**
+206. Ctrl/Cmd + S: Lưu
+207. Ctrl/Cmd + F: Focus tìm kiếm
+208. ESC: Đóng modal
+209. Enter: Submit form
+210. Tab navigation
+
+## **MOBILE & TOUCH (10 tính năng)**
+211. Touch-friendly interface
+212. Long press để kéo cột
+213. Vibration feedback
+214. Pinch to zoom ảnh
+215. Touch scroll
+216. Swipe gestures ready
+217. Responsive breakpoints
+220. Prevent zoom on input focus
+
+## **DATA & STORAGE (15 tính năng)**
+221. LocalStorage persistence
+223. Quota exceeded handling
+224. JSON serialization
+225. Data validation
+226. Error handling
+227. Try-catch blocks
+228. Data migration ready
+229. Version control trong data
+230. Timestamp tracking
+231. User tracking
+232. Data backup
+233. Data restore
+234. Clear all data
+235. Data export multiple formats
+
+## **PERFORMANCE & OPTIMIZATION (10 tính năng)**
+236. Pagination giảm tải render
+239. Event delegation
+240. Debounced search
+241. Optimized loops
+243. DOM manipulation tối ưu
+244. CSS animations thay vì JS
+245. Asset optimization ready
+
+## **TÍNH NĂNG BỔ SUNG**
+261. Rich Text Editor với toolbar
+262. Format text (Bold/Italic/Underline)
+263. Bullet lists trong editor
+264. Rating stars tương tác
+265. Slider với display value
+266. Color picker
+267. URL auto-link
+273. CSV parsing
+274. HTML table export
+275. XML generation
+276. Print functionality
+277. Context menu
+278. Right-click menu
